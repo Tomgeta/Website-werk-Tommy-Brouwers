@@ -1,0 +1,1332 @@
+Body { 
+    background-image: url('../image/Vita-Artic.jpg');
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+} 
+ 
+ /* HEADER */
+
+ header{
+    height: 20vh;
+    /*margin: 0 auto;*/
+    width: 100%;
+    position: relative; 
+    top: -3vh;
+    background-image: url('../image/heutink.jpg');
+    background-repeat: no-repeat;
+    background-color: #eae56d;    
+    z-index: 2;
+    background-size: 80% 95%;
+    background-position-y: 1vh;    
+    border-bottom: 1px groove;
+    min-width: 100%;   
+}
+
+    /* Header Logos */
+        .txtalign {
+            display: inline-block;
+            top: 10vh;
+            right: -50vw;
+            position: relative;
+            margin: 0 auto;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+
+        #logoschool {
+            position: relative;
+            right: 16vw;
+            float: right;
+            top: 6vh;
+            width: 60px;
+        }
+
+        #logoheutink {
+            position: relative;
+            left: -3vw;
+            float: left;
+            top: 6vh;
+            width: 250px;
+        }
+        #laat {
+            color: red;
+            font-weight: bold;
+            font-size: 20px;
+            float: left;
+            position: relative;
+            left: 6vw;
+            top: 10vh;
+        }
+        /* HEADER BANNER */
+        .socialmedia {
+            position: relative;
+            left: -21vw;
+            top: 4vh;
+            float: left;
+        }
+        #phone {
+        
+            float: left;
+            position: relative;
+            left: -13vw;
+            top: 11.2vh;
+        }
+        #phone-vraag {
+            color: black;
+            font-weight: bold;
+            font-size: 12px;
+            float: left;
+            position: relative;
+            left: -13vw;
+            top: 14vh;
+        }
+        .txtalign1 {
+            display: inline-block;
+            top: -1vh;
+            right: 11vw;
+            position: relative;
+            margin: 0 auto;
+        }
+        #banner {
+        
+            float: left;
+            position: relative;
+            left: 6vw;
+            top: 10vh;
+        }
+        .fa {
+            padding: 1vw;
+            width: 1vw;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 5px 5px 5px;
+            position: sticky;
+            top: -10px;
+            left: 10vw;
+            text-decoration: none;
+            z-index: 20;
+            
+        }
+
+
+        .fa-facebook:hover {
+            
+            color: #314c85;
+            text-decoration: none;
+            
+        }
+        .fa-twitter {
+        
+            color: grey;
+            
+        }
+        .fa-twitter:hover {
+            opacity: 0.7;
+            color: #1da1f2;
+            text-decoration: none;
+            
+            }
+        .fa-youtube-play {
+            color: red;
+            }
+
+        .fa-youtube-play:hover {
+            opacity: 0.7;
+            color: #bb0000;
+            text-decoration: none;
+                
+                }
+        .fa-linkedin {
+                
+                color: grey;
+            }
+
+        .fa-linkedin:hover {
+        
+            color: white;
+            text-decoration: none;
+            }
+
+
+/* NAVIGATION BAR */
+nav {
+    position: relative;
+    float: right;
+    left: 27vw;
+}
+
+    nav p {
+    
+        font-display: block;
+        font-size: 18px;
+        transform : translate(-50%,-50%);
+        font-weight: bold;   
+        width: 200px;
+        position: relative;
+        right: -6vw;
+        top: 6vh;
+        text-align: center;   
+        color: black;
+        background: transparent;
+        margin: 30;
+        padding:5px;
+        border: groove black 3px;
+        list-style: none;
+        box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+
+    nav p:hover{
+        border: groove black 3px;
+        color: black;
+        z-index: 3;
+        box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        letter-spacing: 1px;
+        background: rgb(145, 173, 219);
+        
+    }
+
+/* MAIN CONTENT */
+main {
+    position: relative;
+    right: 18vw;
+}
+
+    /* MIJN VERHAAL */
+        #big {
+            width: 80vw;
+            height: 65vh;
+            left: 2vw;            
+            font-weight: bold;
+            margin: 0 auto;
+            background: transparent;
+            border: 3px solid;
+            box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+            border-radius: 200px 15px 225px 15px/15px 225px 15px 255px;
+            
+        }
+    /* CONTROLEER VERHALEN */
+        select{
+            width: 165px;
+            background: transparent;
+            border: solid black 2px;
+        }
+        option {
+            background: rgb(145, 173, 219);
+            font-weight: bold;
+        }
+        
+        tr.spacervtitle>th {
+            position: relative;
+            left: 15vw;
+        }
+        .spacecheckbox{
+            padding-right: 110px;
+            padding-left: 80px;
+            position: relative;
+            left: 2vw;
+        }
+        
+        input[type="checkbox"]{
+            -webkit-appearance: initial;
+            appearance: initial;
+            background: gray;
+            width: 14px;
+            height: 14px;
+            border: none;
+            position: relative;
+        }
+        .ingeleverd input[type="checkbox"]:checked {
+            background: blue;
+        }
+        .ingeleverd input[type="checkbox"]:checked:after {
+            content: "!";
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            
+        }
+        
+        .akkoord input[type="checkbox"]:checked {
+            background: green;
+        }
+        .akkoord input[type="checkbox"]:checked:after {
+            content: "✔";
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);    
+        }
+        .onhold input[type="checkbox"]:checked {
+            background: orangered;
+        }
+        .onhold input[type="checkbox"]:checked:after {
+            content: " ||";
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);    
+        }
+        .afgewezen input[type="checkbox"]:checked {
+            background: red;
+        }
+        .afgewezen input[type="checkbox"]:checked:after {
+            content: "X";
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);    
+        }
+
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: transparent;
+  }
+
+  #footertxt2{
+    position: relative;
+    right: 18vw;
+    top: 0vh;
+    z-index: 500;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 800px)  {
+    
+
+/*HEADER */
+
+header {
+    min-width: 100%;
+}
+
+    #logoschool {
+        width: 35px;
+        left: -15vw;
+    }
+
+    .socialmedia {
+        position: relative;
+       left: -25vw;
+    }
+    #logoheutink {
+        width:120px;
+    }
+
+    #laat {
+        position: relative;
+        font-size: 80%;
+        left: 8vw;
+        top: 9vh;
+        
+    }
+
+    .txtalign {
+        position: relative;
+        left: 32vw;
+        top: 10vh;
+        font-size: 60%;
+    }
+    .txtalign1 {
+        position: relative;
+        left: -19vw;
+        top: -2vh;
+    }
+    #phone {
+        position: relative;
+        top: 13vh;
+        
+    }
+    #phone-vraag {
+        font-size: 10px;
+    }
+
+
+/* NAVIGATION */
+.col-sm-4 {
+    position: relative;
+    left: 20vw;
+}
+nav {
+    position: relative;
+    left: 1vw;
+}
+nav p {
+    width: 18vw;
+    
+    font-size : 10px;
+}
+
+select {
+    width: 15vw;
+}
+
+/* MAIN */
+
+main { 
+    left: -1vw;
+}
+
+    /* MIJN VERHAAL */
+
+        #big {
+            width: 65vw;
+            height: 50vh;
+            font-size: 12px;
+        }
+
+        #MV_titel {
+            font-size: 18px;
+        }
+        #MVp {
+            font-size: 80%;
+        }
+
+    /* REDACTIE */
+    #RDO_titel {
+        font-size: 20px;
+    }
+    #NRed_titel {
+        font-size: 20px;
+    }
+    #NRed_div {
+        height: 10vh;
+        position: relative;
+        top: -2vh;
+    }
+    /* College pagina */
+    #COLLO_titel {
+        font-size: 20px;
+        
+    }
+
+    #NCOLL_titel {
+        font-size: 20px;
+    }
+    /* NIEUWS OVERZICHT */
+    #NBO_titel {
+        font-size: 23px;
+    }
+
+    /*ADVERTENTIEPAGINA */
+    #ADO_titel {
+        font-size: 22px;
+    }
+    #NADD_titel {
+        font-size: 22px;
+    }
+    /* TABLE */
+    #RV_titel {
+        font-size: 95%;
+    }
+    th#RV_th1 {
+       font-size: 15px;
+       left: 18vw;
+       position:relative;
+    }
+    th {
+        position: relative;
+        left: 5vw;
+        font-size: 12px;
+    }
+    tr.spacervtitle>th {
+        position: relative;
+        left: 13vw;
+        font-size: 10px;
+        padding-right: -5vw;
+        width: 10vw;
+        
+    }
+    
+    td {
+        font-size: 60%;
+        position: relative;
+        left: -25px;
+    }
+    #thspacing {
+        position: relative;
+        left: -15px;
+    }
+    td.spacecheckbox {
+        
+        padding-right: 0px;
+        position: relative;
+        left: -13vw;
+    }
+    tr.spacervtitle {
+        position: relative;
+        width: -10vw;
+        left: -10vw;
+        padding: 5px;
+    }
+    input[type="checkbox"] {
+        padding: 20px;
+        position: relative;
+        left: 5vw;
+    }
+/* FOOTER */
+#footertxt2{
+    left: -3vw;
+    font-size: 60%;
+}
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1279px)  {
+    
+
+    /*HEADER */
+    
+    header {
+        min-width: 100%;
+    }
+    
+        #logoschool {
+            width: 35px;
+            left: -14vw;
+        }
+    
+        .socialmedia {
+            position: relative;
+           left: -22vw;
+        }
+        #logoheutink {
+            width:130px;
+        }
+    
+        #laat {
+            position: relative;
+            font-size: 16px;
+            left: 8vw;
+            top: 9vh;
+            
+        }
+    
+        .txtalign {
+            position: relative;
+            left: 39vw;
+            top: 9vh;
+            font-size: 64%;
+        }
+        .txtalign1 {
+            position: relative;
+            left: -19vw;
+            top: -2vh;
+        }
+        #phone {
+            position: relative;
+            top: 13vh;
+            left: -8vw;
+            
+        }
+        #phone-vraag {
+            font-size: 11px;
+            left: -8vw;
+            top: 14vh;
+            position: relative;
+        }
+    
+    
+    /* NAVIGATION */
+    .col-sm-4 {
+        position: relative;
+        left: 20vw;
+    }
+    nav {
+        position: relative;
+        left: 1vw;
+    }
+    nav p {
+        width: 18vw;
+        
+        font-size : 10px;
+    }
+    
+    select {
+        width: 15vw;
+    }
+    
+    /* MAIN */
+    
+    main { 
+        left: -1vw;
+    }
+    
+        /* MIJN VERHAAL */
+    
+            #big {
+                width: 65vw;
+                height: 50vh;
+                font-size: 12px;
+            }
+    
+            #MV_titel {
+                font-size: 18px;
+            }
+            #MVp {
+                font-size: 80%;
+            }
+    
+        /* REDACTIE */
+        #RDO_titel {
+            font-size: 20px;
+        }
+        #NRed_titel {
+            font-size: 20px;
+        }
+        #NRed_div {
+            height: 10vh;
+            position: relative;
+            top: -2vh;
+        }
+        /* College pagina */
+        #COLLO_titel {
+            font-size: 20px;
+            
+        }
+    
+        #NCOLL_titel {
+            font-size: 20px;
+        }
+        /* NIEUWS OVERZICHT */
+        #NBO_titel {
+            font-size: 23px;
+        }
+    
+        /*ADVERTENTIEPAGINA */
+        #ADO_titel {
+            font-size: 22px;
+        }
+        #NADD_titel {
+            font-size: 22px;
+        }
+        /* TABLE */
+        #RV_titel {
+            font-size: 95%;
+        }
+        th#RV_th1 {
+           font-size: 15px;
+           left: 18vw;
+           position:relative;
+        }
+        th {
+            position: relative;
+            left: 5vw;
+            font-size: 12px;
+        }
+        tr.spacervtitle>th {
+            position: relative;
+            left: 13vw;
+            font-size: 10px;
+            padding-right: -5vw;
+            width: 10vw;
+            
+        }
+        
+        td {
+            font-size: 60%;
+            position: relative;
+            left: -2px;
+        }
+        #thspacing {
+            position: relative;
+            left: -15px;
+        }
+        td.spacecheckbox {
+            
+            padding-right: 23px;
+            position: relative;
+            left: -10vw;
+        }
+        tr.spacervtitle {
+            position: relative;
+            width: -10vw;
+            left: -10vw;
+            padding: 5px;
+        }
+        input[type="checkbox"] {
+            padding: 20px;
+            position: relative;
+            left: 5vw;
+        }
+    /* FOOTER */
+    #footertxt2{
+        left: -3vw;
+        font-size: 72%;
+    }
+    
+    }
+
+ 
+    @media only screen and (min-width: 1360px) and (max-width: 1439px) {
+            body {
+                overflow: hidden;
+            }
+
+            /*HEADER */
+            
+            header {
+                min-width: 100%;
+            }
+            
+                #logoschool {
+                    width: 37px;
+                    left: -14vw;
+                    top: 4vh;
+                }
+            
+                .socialmedia {
+                    position: relative;
+                   left: -28vw;
+                   top: 5vh;
+                }
+                #logoheutink {
+                    width:20vw;
+                    position: relative;
+                    left: -5vw;
+                }
+            
+                #laat {
+                    position: relative;                    
+                    left: 8vw;
+                    top: 11vh;
+                    
+                }
+            
+                .txtalign {
+                    position: relative;
+                    left: 30vw;
+                    top: 12vh;
+                    font-size: 12px;
+                    
+                }
+                .txtalign1 {
+                    position: relative;
+                    left: -19vw;
+                    top: -2vh;
+                }
+                #phone {
+                    position: relative;
+                    top: 14vh;
+                    left: -14vw;
+                    
+                }
+                #phone-vraag {
+                    font-size: 15px;
+                    position: relative;
+                    top: 16vh;
+                    left: -14vw;
+                }
+            
+            
+            /* NAVIGATION */
+            .col-sm-4 {
+                position: relative;
+                left: 20vw;
+            }
+            nav {
+                position: relative;
+                left: -13vw;
+                width: 3vw;
+            }
+            nav p {
+                width: 13vw;
+                
+                font-size : 14px;
+            }
+            
+            select {
+                width: 10vw;
+                font-size: 8px;
+            }
+            option {
+                font-size: 10px;
+            }
+            
+            /* MAIN */
+            
+            main { 
+                left: -8vw;
+            }
+            
+                /* MIJN VERHAAL */
+            
+                    #big {
+                        width: 65vw;
+                        height: 50vh;
+                        font-size: 16px;
+                    }
+            
+                    #MV_titel {
+                        font-size: 22px;
+                    }
+                    #MVp {
+                        font-size: 18px;
+                    }
+                    #MVdiv {
+                        font-size: 22px;
+                    }
+            
+                /* REDACTIE */
+                #RDO_titel {
+                    font-size: 20px;
+                }
+                #NRed_titel {
+                    font-size: 20px;
+                }
+                #NRed_div {
+                    height: 10vh;
+                    position: relative;
+                    top: -2vh;
+                }
+                /* College pagina */
+                #COLLO_titel {
+                    font-size: 32px;
+                    
+                }
+                #COLLO_div {
+                    font-size: 22px;
+                }
+            
+                #NCOLL_titel {
+                    font-size: 20px;
+                }
+                /* NIEUWS OVERZICHT */
+                #NBO_titel {
+                    font-size: 38px;
+                }
+                #NBO_div {
+                    font-size: 30px;
+                    position: relative;
+                    left: 4vw;
+                }
+                #NBO_div>th {
+                    font-size: 15px;
+                    position: relative;
+                    left: 5vw;
+                }
+            
+                /*ADVERTENTIEPAGINA */
+                #ADO_titel {
+                    font-size: 22px;
+                }
+                #NADD_titel {
+                    font-size: 22px;
+                }
+                /* TABLE */
+                #RV_titel {
+                    font-size: 22px;
+                }
+                th#RV_th1 {
+                   font-size: 18px;
+                   left: 18vw;
+                   position:relative;
+                }
+                th {
+                    font-size: 20px;
+                }
+                tr.spacervtitle>th {
+                    position: relative;
+                    left: 17vw;
+                    font-size: 13px;
+                    padding-right: -5vw;
+                    width: 10vw;
+                    
+                }
+                
+                td {
+                    font-size: 14px;
+                    position: relative;
+                    
+                }
+                #thspacing {
+                    position: relative;
+                    left: -15px;
+                }
+                td.spacecheckbox {
+                    position: relative;
+                    left: -6vw;
+                }
+                tr.spacervtitle {
+                    position: relative;
+                    width: -10vw;
+                    left: -2vw;
+                    padding: 5px;
+                    font-size: 27px;
+                }
+                input[type="checkbox"] {
+                    padding: 20px;
+                    position: relative;
+                    left: 5vw;
+                }
+            /* FOOTER */
+            
+            #footertxt2{
+                position: relative;
+                left: -8vw;
+                
+            }
+            
+            }
+
+    @media only screen and (min-width: 1440px) and (max-width: 1919px)  {
+                body {
+                    overflow: hidden;
+                }
+    
+                /*HEADER */
+                
+                header {
+                    min-width: 100%;
+                }
+                
+                    #logoschool {
+                        width: 50px;
+                        left: -14vw;
+                        top: 5vh;
+                    }
+                
+                    .socialmedia {
+                        position: relative;
+                       left: -28vw;
+                       top: 4vh;
+                    }
+                    #logoheutink {
+                        width:20vw;
+                        position: relative;
+                        left: -5vw;
+                        top: 4vh;
+                    }
+                
+                    #laat {
+                        position: relative;                    
+                        left: 8vw;
+                        top: 10vh;
+                        
+                    }
+                
+                    .txtalign {
+                        position: relative;
+                        left: 37vw;
+                        top: 10vh;
+                        font-size: 12px;
+                        
+                    }
+                    .txtalign1 {
+                        position: relative;
+                        left: -19vw;
+                        top: -2vh;
+                    }
+                    #phone {
+                        position: relative;
+                        top: 14vh;
+                        left: -14vw;
+                        
+                    }
+                    #phone-vraag {
+                        font-size: 15px;
+                        position: relative;
+                        top: 16vh;
+                        left: -14vw;
+                    }
+                
+                
+                /* NAVIGATION */
+                .col-sm-4 {
+                    position: relative;
+                    left: 20vw;
+                }
+                nav {
+                    position: relative;
+                    left: -9vw;
+                    width: 3vw;
+                }
+                nav p {
+                    width: 13vw;
+                    
+                    font-size : 14px;
+                }
+                
+                select {
+                    width: 10vw;
+                    font-size: 8px;
+                }
+                option {
+                    font-size: 10px;
+                }
+                
+                /* MAIN */
+                
+                main { 
+                    left: -8vw;
+                }
+                
+                    /* MIJN VERHAAL */
+                
+                        #big {
+                            width: 65vw;
+                            height: 50vh;
+                            font-size: 16px;
+                        }
+                
+                        #MV_titel {
+                            font-size: 22px;
+                        }
+                        #MVp {
+                            font-size: 18px;
+                        }
+                        #MVdiv {
+                            font-size: 22px;
+                        }
+                
+                    /* REDACTIE */
+                    #RDO_titel {
+                        font-size: 20px;
+                    }
+                    #NRed_titel {
+                        font-size: 20px;
+                    }
+                    #NRed_div {
+                        height: 10vh;
+                        position: relative;
+                        top: -2vh;
+                    }
+                    /* College pagina */
+                    #COLLO_titel {
+                        font-size: 32px;
+                        
+                    }
+                    #COLLO_div {
+                        font-size: 22px;
+                    }
+                
+                    #NCOLL_titel {
+                        font-size: 20px;
+                    }
+                    /* NIEUWS OVERZICHT */
+                    #NBO_titel {
+                        font-size: 38px;
+                    }
+                    #NBO_div {
+                        font-size: 30px;
+                        position: relative;
+                        left: 4vw;
+                    }
+                    #NBO_div>th {
+                        font-size: 15px;
+                        position: relative;
+                        left: 5vw;
+                    }
+                
+                    /*ADVERTENTIEPAGINA */
+                    #ADO_titel {
+                        font-size: 22px;
+                    }
+                    #NADD_titel {
+                        font-size: 22px;
+                    }
+                    /* TABLE */
+                    #RV_titel {
+                        font-size: 22px;
+                    }
+                    th#RV_th1 {
+                       font-size: 18px;
+                       left: 18vw;
+                       position:relative;
+                    }
+                    th {
+                        font-size: 20px;
+                    }
+                    tr.spacervtitle>th {
+                        position: relative;
+                        left: 17vw;
+                        font-size: 13px;
+                        padding-right: -5vw;
+                        width: 10vw;
+                        
+                    }
+                    
+                    td {
+                        font-size: 14px;
+                        position: relative;
+                        
+                    }
+                    #thspacing {
+                        position: relative;
+                        left: -15px;
+                    }
+                    td.spacecheckbox {
+                        position: relative;
+                        left: -6vw;
+                    }
+                    tr.spacervtitle {
+                        position: relative;
+                        width: -10vw;
+                        left: -2vw;
+                        padding: 5px;
+                        font-size: 27px;
+                    }
+                    input[type="checkbox"] {
+                        padding: 20px;
+                        position: relative;
+                        left: 5vw;
+                    }
+                /* FOOTER */
+                
+                #footertxt2{
+                    position: relative;
+                    left: -8vw;
+                    
+                }
+                
+                }
+
+@media only screen and (min-width: 1920px) and (max-width: 2263px)  {
+                    body {
+                        overflow: hidden;
+                    }
+        
+                    /*HEADER */
+                    
+                    header {
+                        min-width: 100%;
+                    }
+                    
+                        #logoschool {
+                            width: 3.5vw;
+                            left: -14vw;
+                            top: 5vh;
+                        }
+                    
+                        .socialmedia {
+                            position: relative;
+                           left: -24.5vw;
+                           top: 4vh;
+                        }
+                        #logoheutink {
+                            width:15vw;
+                            position: relative;
+                            left: -5vw;
+                            top: 4vh;
+                        }
+                    
+                        #laat {
+                            position: relative;                    
+                            left: 5vw;
+                            top: 10vh;
+                            
+                        }
+                    
+                        .txtalign {
+                            position: relative;
+                            left: 46vw;
+                            top: 10vh;
+                            font-size: 13px;
+                            
+                        }
+                        .txtalign1 {
+                            position: relative;
+                            left: -19vw;
+                            top: -2vh;
+                        }
+                        #phone {
+                            position: relative;
+                            top: 14vh;
+                            left: -9vw;
+                            
+                        }
+                        #phone-vraag {
+                            font-size: 15px;
+                            position: relative;
+                            top: 16vh;
+                            left: -9vw;
+                        }
+                    
+                    
+                    /* NAVIGATION */
+                    .col-sm-4 {
+                        position: relative;
+                        left: 20vw;
+                    }
+                    nav {
+                        position: relative;
+                        left: -2vw;
+                        width: 3vw;
+                    }
+                    nav p {
+                        width: 13vw;                        
+                        font-size : 14px;
+                    }
+                    
+                    select {
+                        width: 10vw;
+                        font-size: 8px;
+                    }
+                    option {
+                        font-size: 10px;
+                    }
+                    
+                    /* MAIN */
+                    
+                    main { 
+                        left: -8vw;
+                    }
+                    
+                        /* MIJN VERHAAL */
+                    
+                            #big {
+                                width: 67vw;
+                                height: 65vh;
+                                font-size: 16px;
+                                position: relative;
+                                left: -10vw;
+                            }
+                    
+                            #MV_titel {
+                                font-size: 22px;
+                                position: relative;
+                                left: -10vw;
+                            }
+                            #MVp {
+                                font-size: 18px;
+                                position: relative;
+                                left: -10vw;
+                            }
+                            #MVdiv {
+                                font-size: 22px;
+                               
+                            }
+                    
+                        /* REDACTIE */
+                        #RDO_titel {
+                            font-size: 20px;
+                        }
+                        #NRed_titel {
+                            font-size: 20px;
+                        }
+                        #NRed_div {
+                            height: 10vh;
+                            position: relative;
+                            top: -2vh;
+                        }
+                        /* College pagina */
+                        #COLLO_titel {
+                            font-size: 32px;
+                            
+                        }
+                        #COLLO_div {
+                            font-size: 22px;
+                        }
+                    
+                        #NCOLL_titel {
+                            font-size: 20px;
+                        }
+                        /* NIEUWS OVERZICHT */
+                        #NBO_titel {
+                            font-size: 38px;
+                        }
+                        #NBO_div {
+                            font-size: 30px;
+                            position: relative;
+                            left: 4vw;
+                        }
+                        #NBO_div>th {
+                            font-size: 15px;
+                            position: relative;
+                            left: 5vw;
+                        }
+                    
+                        /*ADVERTENTIEPAGINA */
+                        #ADO_titel {
+                            font-size: 22px;
+                        }
+                        #NADD_titel {
+                            font-size: 22px;
+                        }
+                        /* TABLE */
+                        #RV_titel {
+                            font-size: 22px;
+                        }
+                        th#RV_th1 {
+                           font-size: 18px;
+                           left: 18vw;
+                           position:relative;
+                        }
+                        th {
+                            font-size: 20px;
+                        }
+                        tr.spacervtitle>th {
+                            position: relative;
+                            left: 17vw;
+                            font-size: 13px;
+                            padding-right: -5vw;
+                            width: 10vw;
+                            
+                        }
+                        
+                        td {
+                            font-size: 14px;
+                            position: relative;
+                            
+                        }
+                        #thspacing {
+                            position: relative;
+                            left: -15px;
+                        }
+                        td.spacecheckbox {
+                            position: relative;
+                            left: -6vw;
+                        }
+                        tr.spacervtitle {
+                            position: relative;
+                            width: -10vw;
+                            left: -2vw;
+                            padding: 5px;
+                            font-size: 27px;
+                        }
+                        input[type="checkbox"] {
+                            padding: 20px;
+                            position: relative;
+                            left: 5vw;
+                        }
+                    /* FOOTER */
+                    
+                    #footertxt2{
+                        position: relative;
+                        left: -18vw;
+                        
+                    }
+                    
+                    }

@@ -1,0 +1,218 @@
+
+  #footertxt {
+
+    font-size: 10px!important;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0.5rem;
+    pointer-events: none;
+    top: 2vh;
+    background-color: black;
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #212529;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+
+@media (min-width: 575.99px) and (max-width:1920px){
+  .main-content .photos .photo-item img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 420px!important;
+    /* margin-bottom: 20px; */
+}
+
+.textleft {
+  position: relative;
+  left: -20vw;
+}
+
+}
+
+/* CARDS POSITIONING SMALL PHONE */
+@media only screen 
+  and (min-device-width: 321px)
+  and (max-device-width: 375px) {
+    #imagewidth {
+      max-width: 50%;
+          
+      }
+    .small {
+      position: relative; 
+      left: 3vw;
+      float: left;
+    }
+    /*card numbers RED*/
+    .num5 {
+     
+      position: relative;
+      bottom: 23.6vh;
+      left: 45vw;
+    }
+    
+
+    .num6 {
+      position: relative;
+      top: -22vh;
+    }
+    .num7 {
+      position: relative;
+      top: -45.2vh;
+      left: 45vw;
+
+    }
+    .num8 {
+      position: relative;
+      top: -43vh;
+    }
+    .num9 {
+      position: relative;
+      top: -66.5vh;
+      left: 45vw;
+    }
+    .num10 {
+      position: relative;
+      top: -64.5vh;
+     
+    }
+    .num11 {
+      position: relative;
+      top: -88vh;
+      left: 45vw;
+    }
+    .num12 {
+      position: relative;
+      top: -86vh;
+    }
+    .num13 {
+      position: relative;
+      top: -109vh;
+      left: 45vw;
+    }
+    .num14 {
+      position: relative;
+      top: -107vh;
+    }
+
+    .num15 {
+      position: relative;
+      top: -130.5vh;
+      left: 45vw;
+    }
+    .num16 {
+      position: relative;
+      top: -128vh;
+    }
+    .num17 {
+      position: relative;
+      top: -151vh;
+      left: 45vw;
+    }
+    .num18 {
+      position: relative;
+      top: -149vh;
+    }
+
+    .num19 {
+      position: relative;
+      top: -172vh;
+      left: 45vw;
+    }
+    .num20 {
+      position: relative;
+      top: -170vh;
+    }
+    .num21 {
+      position: relative;
+      top: -193vh;
+      left: 45vw;
+    }
+    .num22 {
+      position: relative;
+      top: -191vh;
+    }
+    .num23 {
+      position: relative;
+      top: -214vh;
+      left: 45vw;
+    }
+    .num24 {
+      position: relative;
+      top: -212vh;
+    }
+    .num25 {
+      position: relative;
+      top: -235vh;
+      left: 45vw;
+    }
+    .num26 {
+      position: relative;
+      top: -232vh;
+    }
+    .num27 {
+      position: relative;
+      top: -255vh;
+      left: 45vw;
+    }
+  }
+
+
+
+
+@media (max-width: 320px) {
+  #imagewidth {
+    max-width: 50%;
+        
+    }
+
+.small {
+  position: relative; 
+  left: 3vw;
+}
+
+/*card numbers RED*/
+    .num5 {
+     
+      position: relative;
+      bottom: 20vh;
+      left: 45vw;
+    }
+
+    /*card numbers*/
+    .num6 {
+      position: relative;
+      top: -19vh;
+    }
+    .num7 {
+      position: relative;
+      top: -38.6vh;
+      left: 45vw;
+
+    }
+    .num8 {
+      position: relative;
+      top: -37vh;
+    }
+    .num9 {
+      position: relative;
+      top: -56.5vh;
+      left: 45vw;
+    }
+}
